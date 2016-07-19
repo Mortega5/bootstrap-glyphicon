@@ -1,5 +1,5 @@
 {
-  "name": "bootstrap-glyphicon",
+  "name": "bs-glyphicon",
   "version": "1.0.8",
   "authors": [
     "Miguel Ortega Moreno <miguel.ortega.moreno5@gmail.com>"
@@ -12,9 +12,9 @@
     "seed",
     "glyphicon"
   ],
-  "main": "bootstrap-glyphicon.html",
+  "main": "bs-glyphicon.html",
   "license": "http://polymer.github.io/LICENSE.txt",
-  "homepage": "https://github.com/Mortega5/bootstrap-glyphicon",
+  "homepage": "https://github.com/Mortega5/bs-glyphicon",
   "ignore": [
     "/.*",
     "/test/"

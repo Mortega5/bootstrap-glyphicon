@@ -1,6 +1,6 @@
-# bootstrap-glyphicon
+# bs-glyphicon
 
-Create a glyphicon using polymer elements. Icon value is the icon name using in bootstrap but removing `glyphicon` and `glyphicon-` style. For example: 
+Create a glyphicon using polymer elements. Icon value is the icon name using in bootstrap but removing `glyphicon` and `glyphicon-` style. For example:
 
 * glyphicon-pencil is pencil
 * glyphicon-star is star
@@ -9,7 +9,7 @@ Create a glyphicon using polymer elements. Icon value is the icon name using in 
 ## Example
 
 ```html
-<bootstrap-glyphicon icon="pencil"></bootstrap-glyphicon>
+<bs-glyphicon icon="pencil"></bs-glyphicon>
 ```
 
 ## Properties
@@ -22,8 +22,8 @@ Create a glyphicon using polymer elements. Icon value is the icon name using in 
 
 | Custom Property               | Description                          | Default |
 |-------------------------------|--------------------------------------|---------|
-| __--bootstrap-glyphicon-size__  | Change glyphicon size                | 12px    |
-| __--bootstrap-glyphicon-style__ | Mixin applied to bootstrap-glyphicon | { }      |
+| __--bs-glyphicon-size__  | Change glyphicon size                | 12px    |
+| __--bs-glyphicon-style__ | Mixin applied to bs-glyphicon | { }      |
 
 ## Dependencies
 

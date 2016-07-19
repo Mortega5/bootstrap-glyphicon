@@ -12,9 +12,9 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
-  <title>bootstrap-glyphicon Demo</title>
+  <title>bs-glyphicon Demo</title>
   <script src="../../webcomponentsjs/webcomponents-lite.min.js"></script>
-  <link rel="import" href="../bootstrap-glyphicon.html">
+  <link rel="import" href="../bs-glyphicon.html">
   <link rel="import" href="../../iron-flex-layout/classes/iron-flex-layout.html">
 </head>
 <body unresolved>
@@ -36,8 +36,8 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
     -moz-hyphens: auto;
     padding:3px 5px;
   }
-  bootstrap-glyphicon {
-    --bootstrap-glyphicon-style: {
+  bs-glyphicon {
+    --bs-glyphicon-style: {
       font-size:20px;
     }
   }
@@ -45,8 +45,8 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
     background-color:purple;
     color:white;
   }
-  .item:hover bootstrap-glyphicon {
-    --bootstrap-glyphicon-style: {
+  .item:hover bs-glyphicon {
+    --bs-glyphicon-style: {
       color: white;
     }
   }
@@ -55,7 +55,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
   <div class="horizontal center center layout wrap list">
     <template is="dom-repeat" items="{{icons}}">
       <div class="vertical layout center-center item">
-        <bootstrap-glyphicon icon="{{item}}"></bootstrap-glyphicon>
+        <bs-glyphicon icon="{{item}}"></bs-glyphicon>
         <p>{{item}}</p>
       </div>
     </template>
